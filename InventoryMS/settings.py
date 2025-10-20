@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-g_n2+2bznu6e@1wel!i(&-4tp86_7lop5395ww+i4x%9*7^old
 DEBUG = False
 
 ALLOWED_HOSTS = ["188.245.105.225","nahimetal.com"]
-
+CSRF_COOKIE_SECURE = False
 WSGI_APPLICATION = 'InventoryMS.wsgi.application'
 ASGI_APPLICATION ="InventoryMS.asgi.application"
 # Application definition
