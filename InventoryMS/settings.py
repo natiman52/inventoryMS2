@@ -16,6 +16,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["188.245.105.225","nahimetal.com"]
 CSRF_COOKIE_SECURE = False
+CSRF_TRUSTED_ORIGINS = ["https://nahimetal.com"]
 WSGI_APPLICATION = 'InventoryMS.wsgi.application'
 ASGI_APPLICATION ="InventoryMS.asgi.application"
 # Application definition
